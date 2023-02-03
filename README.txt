@@ -1,5 +1,5 @@
 # Office_HR_Management_System
-Website with XAMPP stack, php, CSS, framework: Laravel with MVC structure
+Website with XAMPP stack, php, CSS, framework: JavaScript with MVC structure
 
 
 =================================================
