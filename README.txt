@@ -10,11 +10,11 @@ Website
 # Requirement 1 and its features
 
 Registration and login Page:
-- Client can register with password, email and name.
-- After that client can only need password for login.
-- HR management leader has unique registration system webpage.
-- HR leader only needs password for registration.
-- Two separate registration webpage for HR leader and for the client where the security level maintained.  (non-functional requirement)
+- Employee can register with password, email, designation and name.
+- HR leader only needs ID and password for login.
+- "Forget password" feature available for HR leader.
+- Two separate Login webpage for HR leader and for the employee where the security level maintained.  (non-functional requirement)
+- Visitors login page for storing visitors information.
 
 
 =================================================
@@ -24,11 +24,11 @@ Registration and login Page:
 
 # Requirement 2 and its features
 
-HR can modify client:
-- HR leader can remove client
-- HR can assign task to the client
-- HR can see if the task has been completed/submitted or not
-- HR can see task remaining time and also can modify assigned time for each task
+HR can modify employee and projects:
+- HR leader can remove (Delete) employee
+- HR can assign projects to the employee
+- HR can view if the task has been completed/submitted or not
+- HR can view Employee information and all projects assigned for each employee
 
 
 =================================================
@@ -37,11 +37,13 @@ HR can modify client:
 
 # Requirement 3 and its features
 
-Number of active client:
+Vacancy, visitor's queries and employee monitor:
+- Visitors can send their queries to the HR leader
+- HR leader can post available designation and benefits.
+- If anything changes need, HR can update the available designation.
 - Active and inactive client can be displayed in number only in HR monitor page
-- Task for every client can also be seen by HR leader
-- If assigned time has passed then the client will turn into inactive member
-- HR can send warning message if the client is inactive
+- HR can delete the assign project if the employee did not submit any progress.
+- HR can send warning message if the employee is inactive
 
 
 =================================================
@@ -50,12 +52,12 @@ Number of active client:
 
 Requirement 4 and its features
 
-Easy multiple client add and update:
-- HR can add multiple client by simply uploading CSV file
-- HR can update client information.
+Easy multiple employee add and update:
+- HR can add multiple employee by simply importing CSV file (non-functional requirement).
+- HR can update employees information if the employee request to update information.
 - Can add client up to more than 50. (non-functional requirement)
 - HR can also download all client information into excel file or CSV file
-- Downloaded CSV file is easy to read and modify with excel
+- Downloaded CSV file is easy to read and can edit with Microsoft Excel
 
 
 
@@ -66,13 +68,19 @@ Easy multiple client add and update:
 
 Requirement 5 and its features
 
-Search engine and client information page:
+Search engine and employee information page:
 - HR leader can search specific client
-- Client can also search their specific more priority task.
-- Client can add their detailed information like address, education qualification, skills and experience in "client info" page.
-- Each client has to again authenticate by his/her password to see the detailed information.
+- Employee can also search their specific more priority task.
+- Employee can add their detailed information like address, education qualification, skills and experience in "client info" page.
+- Each employee has to again authenticate by his/her password to see the detailed information.
 
 
+
+
+Additional info
+------------------
+
+- If possible, will try to add passport size photo for each client in "client info" page, countdown time for each project and also will try to add more CSS and JavaScript for enchaining webpage.
 
 
 
