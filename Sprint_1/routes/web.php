@@ -1,0 +1,51 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\visitorController;
+use App\Http\Controllers\visitorPage;
+use App\Http\Controllers\hrController;
+use App\Http\Controllers\hrPage;
+
+use App\Http\Controllers\employeeController;
+use App\Http\Controllers\employeePage;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+// Route::get('/emlogin', function () {
+//     return view('employee');
+// });
+
+Route::get('/hrlogin', function () {
+    return view('HR');
+});
+
+Route::view('home', 'home');
+
+Route::view('vlogin', 'vlogin');
+Route::post('vlogin', [visitorController::class, 'vlogin']);
+
+Route::view('employee', 'employee');
+Route::post('employee', [employeeController::class, 'emlogin']);
+
+
+Route::post("/login", [visitorController::class, 'login']);
+Route::get("/", [visitorPage::class, 'register']);
+
+Route::post("/hrlogin", [hrController::class, 'hrlogin']);
+Route::get("/", [hrPage::class, 'register']);
+
+// Route::get("/", [employeePage::class, 'register']);
+// Route::post("/emlogin", [employeeController::class, 'login']);
