@@ -1,9 +1,10 @@
 NOTE: The file size is over 50mb with over 100 files in each folder. Therefore, unable to upload the "vendor" folder which carry over 100 files and is also time consuming.
 
 
-# Office_HR_Management_System
-Website with XAMPP stack, php, CSS, framework: JavaScript with MVC structure
+# Office_HR_Management_System-website
 
+Stack: WAMP
+Framework: Laravel
 
 =================================================
 =================================================
