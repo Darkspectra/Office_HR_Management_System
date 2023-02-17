@@ -1,1 +1,23 @@
 NOTE: The file size is over 50mb with over 100 files in each folder. Therefore, unable to upload the "vendor" folder which carry over 100 files and is also time consuming.
+
+
+======Sprint-1 procedure=====
+
+Setup Procedure:
+
+1. Installed XAMPP.
+2. Installed Composer for Laravel
+3. In XAMPP control panel Apache "config", enabled "Unzip/zip" option for installing Laravel on the htdoc directory
+4. In terminal wrote "composer create-project laravel/laravel hr_management" and with this the laravel installation process has started
+5. After that to see Laravel installation has successfully completed or not "php artisan serve" command has been written on the terminal
+6. Database (http://localhost/phpmyadmin/) now can linked with VScode IDE and main coding part were done in VScode IDE.
+
+Login, Register and Database save process in Sprint-1:
+
+1. In "views" folder I have createed master.blade.php which will act as the main classic frontend
+2. In employee.blade.php and HR.blade.php file and vlogin.blade.php, all the login and register materials like form, button, input are coded here
+3. In the "migrate" folder the database has been created at "http://localhost/phpmyadmin/" and linked this database with "php artisan migrate" command in the windows terminal.
+4. Since employee needs to register in "Controllers" folder, employeeController.php file created with "php artisan make:controller employeeController" where the inputs data were bypass with "emlogin" function to the "hr_man" database and saved it.
+5. Same process has applied when the visitor submit queries with "visitorController.php"
+6. In the "Models" folder, 4 files has created for employee, hr, user and visitor where database connection implemented with specific table name "protected $table = 'table_name';"
+7. In "seeders" folder data can be saved with manually for testing purpose with "php artisan db:seed --class=table_name" command in windows terminal
