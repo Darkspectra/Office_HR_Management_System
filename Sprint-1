@@ -21,3 +21,7 @@ Login, Register and Database save process in Sprint-1:
 5. Same process has applied when the visitor submit queries with "visitorController.php"
 6. In the "Models" folder, 4 files has created for employee, hr, user and visitor where database connection implemented with specific table name "protected $table = 'table_name';"
 7. In "seeders" folder data can be saved with manually for testing purpose with "php artisan db:seed --class=table_name" command in windows terminal
+
+
+
+                                                                           ------------
