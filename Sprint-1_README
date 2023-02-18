@@ -23,5 +23,19 @@ Login, Register and Database save process in Sprint-1:
 7. In "seeders" folder data can be saved with manually for testing purpose with "php artisan db:seed --class=table_name" command in windows terminal
 
 
+Complete features list:
+- Employee can register with password, email, designation and name.
+- HR leader only needs ID and password for login.
+- "Forget password" feature available for HR leader.
+- Two separate Login webpage for HR leader and for the employee where the security level maintained.  (non-functional requirement)
+- Visitors login page for storing visitors information.
+
+Incomplete features list:
+- None
+
+
+
+
+
 
                                                                            ------------
