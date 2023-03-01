@@ -1,5 +1,6 @@
 NOTE: The file size is over 50mb with over 100 files in each folder. Therefore, unable to upload the "vendor" folder which carry over 100 files and is also time consuming.
 
+--->  "app" folder contain Models and Controllers. "routes" folder contain URL routes and "resources" folder contain views file.  <---
 
 # Office_HR_Management_System-website
 
